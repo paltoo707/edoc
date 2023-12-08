@@ -1,0 +1,74 @@
+body {
+    font-family: 'Kanit', sans-serif !important;
+    background: #f6f9ff;
+    color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.breadcrumb {
+  font-family: 'Kanit', sans-serif !important;
+}
+
+.loading{position: absolute;left: 0; top: 0; right: 0; bottom: 0;z-index: 2;background: rgba(255,255,255,0.7);}
+.loading .content {
+    position: absolute;
+    transform: translateY(-50%);
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #555;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #012970;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #fff;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a {
+    color: white !Important;
+    background-color: #012970 !Important;
+    border: solid 1px #012970 !Important;
+}
+
+.pagination > .active > a:hover {
+    background-color: #012970 !Important;
+    border: solid 1px #012970;
+}
+.pagination .page-item.page-item {
+    margin-left: 2px;
+}
+.pagination .page-item.page-item a {
+    color: #012970;
+}
+
+.list-group-itemx {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: 0;
+}
